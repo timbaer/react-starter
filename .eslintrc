@@ -1,0 +1,36 @@
+extends:
+  eslint-config-airbnb
+
+parser:
+  babel-eslint
+
+settings:
+  ecmascript: 6
+
+env:
+  browser: true
+  jest/globals: true
+
+plugins: ["jest"]
+
+rules:
+  indent: ["warn", 4]
+  func-style: 0
+  func-names: 0
+  comma-dangle: 0
+  no-console: 0
+  no-param-reassign: 0
+  linebreak-style: 0
+  import/no-extraneous-dependencies: 0
+  import/no-unresolved: 0
+  import/extensions: 0
+  react/forbid-prop-types: 1
+  react/jsx-filename-extension: 0
+  react/jsx-first-prop-new-line: "never"
+  react/jsx-indent: 4
+  react/jsx-indent-props: [4, 4]
+  jest/no-disabled-tests: "warn"
+  jest/no-focused-tests: "error"
+  jest/no-identical-title: "error"
+  jest/prefer-to-have-length: "warn"
+  jest/valid-expect: "error"

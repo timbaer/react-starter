@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render as expected with loaded user 1`] = `
+<section>
+  Hello
+   
+  <a
+    href="/world"
+    onClick={[Function]}
+  >
+    World
+  </a>
+   
+   to Hans Wurst
+  <p>
+    <button
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Load User
+    </button>
+  </p>
+</section>
+`;
+
+exports[`should render as expected with no user loaded 1`] = `
+<section>
+  Hello
+   
+  <a
+    href="/world"
+    onClick={[Function]}
+  >
+    World
+  </a>
+   
+  
+  <p>
+    <button
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Load User
+    </button>
+  </p>
+</section>
+`;
