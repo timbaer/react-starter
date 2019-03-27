@@ -5,6 +5,19 @@
 - Up2Date tech stack for a React/Redux App
 - 100% tested
 
+## How to use 
+
+```
+    # Start the app (serving from http://localhost:3000)
+    npm start
+    
+    # Run the tests (one-shot)
+    npm run test
+    
+    # Run and watch tests 
+    npm run test:watch
+```
+
 ### Todos
 - Add production readiness
 - Add hooks
